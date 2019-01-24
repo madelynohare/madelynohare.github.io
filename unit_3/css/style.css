@@ -1,0 +1,37 @@
+body {
+	background-color: #48C1FF;
+	font-family: Helvetica, sans-serif;
+ }
+
+
+h1 {
+	color: #373A3D;
+	font-size: 40px;
+}
+
+h2 {
+	color: #FFF8FF;
+	font-size: 25px;
+	font-style: italic;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	color: #FFF8FF;
+	font-size: 20px;
+	font-style: normal;
+}
+
+ul {
+	color: #FFF8FF;
+	font-size: 20px;
+	font-style: normal;
+}
+
+
+a { 
+	color: #000A2B; 
+}
