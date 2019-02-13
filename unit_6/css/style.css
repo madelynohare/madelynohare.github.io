@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300');
+
+body {
+	font-size: 20px;
+	background-color: #C2E0FF;
+	position: relative;
+}
+
+header{
+	color:3F5363;
+	padding: 20px;
+}
+	
+
+nav{
+	text-align: right;
+	padding: 20px;
+	margin: auto;
+}
+
+
+main{
+	background-color: #C2E0FF;
+	padding: 1em 0;
+	color:3F5363;
+	width: 80em;
+	margin: auto;
+}
+aside{
+	padding-top: .5em;
+	width: 40em;
+	margin: auto;
+}
+
+article{
+	padding-top: .5em;
+	width: 80em;
+	margin: auto;
+}
+
+section{
+	padding: 50px 0;
+}
+
+footer{
+	font-weight: bold;
+	padding: 50px 10px;
+	color: #3F5363;
+	border: 1px black solid;
+	
+}
+
+h1 {
+	font-family: 'EB Garamond', arial, serif;
+	font-weight: normal;
+	font-size: 2em;
+	color: #3F5363;
+	text-transform: uppercase;
+	margin: auto;
+	padding-top: 4em;
+	text-align:center;
+}
+
+h2 {
+	font-family: 'EB Garamond', arial, serif;
+	font-size: 1.5em;
+	font-style: italic;
+	color: #3F5363;
+	text-align: center;
+}
+
+h3{
+	font-family: 'Roboto Slab', arial, serif;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #3F5363; 
+ }
+
+p {
+	font-family: 'Work Sans', helvetica, sans-serif;
+	font-size: 1.4em;
+	font-style: normal;
+	line-height: 1em;
+	text-align: left;
+	color: #3F5363;
+}
+
+ul {
+	font-family: 'Work Sans', helvetica, sans-serif;
+	font-size: .75em;
+	text-align: left;
+	color:#3F5363;
+}
+
+
+a{ 
+	font-weight: bold;
+	text-decoration:none;
+	color: #003CBA;
+	border-bottom: none;
+	padding-bottom:.1em;
+
+}
+a:hover{
+	background-color: #6C6A7F;
+}
+
+img{
+	width:100%;
+}
+
+.wrapper {
+	padding: 20px;
+}
+
+.navlinks{
+	font-family: 'Work Sans', helvetica, sans-serif;
+	font-weight: bold;
+	font-size: .75em;
+	color: #003CBA;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding-right: 1em;
+	padding-left: 1em;
+	text-align: right;
+	background-color: #FFFFFF;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+
+.image_left{
+	padding: 5px;
+	float: left;
+	width: 40%;
+	
+}
+
+.wording_right{
+	padding: 5px;
+	float: right;
+	width: 50%;
+}
+
+
+#lander{
+	background:url(../images/financial_chart.jpg) no-repeat center center scroll;
+	background-size: cover;
+	height:500px;
+	padding: 1em, 2em;
+}
+
+#blurb{
+	padding-top: .25em;
+	border: 1px black solid;
+	padding: 20px;
+	width: 40em;
+	margin: auto;
+}
