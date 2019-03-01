@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300');
+
+body {
+	font-size: 20px;
+	background-color: #C2E0FF;
+	position: relative;
+}
+
+header{
+	color:#3F5363;
+	padding: 1em;
+}
+	
+
+nav{
+	text-align: right;
+	padding: 1em;
+	margin: auto;
+}
+
+main{
+	background-color: #C2E0FF;
+	padding: 3em;
+	color: #3F5363;
+	margin: auto;
+
+
+}
+aside{
+	padding-top: .5em;
+	margin: auto;
+}
+
+article{
+	padding-top: .5em;
+	width: 100%;
+	margin: auto;
+}
+
+section{
+	padding: 2em 0;
+}
+
+footer{
+	font-weight: bold;
+	font-size: .5em;
+	padding: 2.5em .5em;
+	color: #3F5363;	
+}
+
+h1 {
+	font-family: 'EB Garamond', arial, serif;
+	font-weight: normal;
+	font-size: 2em;
+	color: #3F5363;
+	text-transform: uppercase;
+	margin: auto;
+	padding-top: 3em;
+	text-align:center;
+}
+
+h2 {
+	font-family: 'EB Garamond', arial, serif;
+	font-size: 1.5em;
+	font-style: italic;
+	color: #3F5363;
+	text-align: center;
+}
+
+h3{
+	font-family: 'Roboto Slab', arial, serif;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #3F5363; 
+ }
+
+p {
+	font-family: 'Work Sans', helvetica, sans-serif;
+	font-size: 1.4em;
+	font-style: normal;
+	line-height: 1em;
+	text-align: left;
+	color: #3F5363;
+	display: inline-block;
+	margin: auto;
+}
+
+ul {
+	font-family: 'Work Sans', helvetica, sans-serif;
+	font-size: .9em;
+	text-align: left;
+	color:#3F5363;
+}
+
+
+a{ 
+	font-weight: bold;
+	text-decoration:none;
+	color: #003CBA;
+	border-bottom: none;
+	padding-bottom:.1em;
+
+}
+a:hover{
+	background-color: #6C6A7F;
+}
+
+img{
+	width:100%;
+}
+
+label{
+	font-family: 'Work Sans', helvetica, sans-serif;
+	font-weight: bold;
+	font-size: .75em;
+	color: #003CBA;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	padding-right: 1em;
+	padding-left: 1em;
+	text-align: center;
+	background-color: #FFFFFF;
+	margin: auto;
+	display: none;
+}
+
+/*.wrapper {
+	padding: 1em;
+}
+*/
+.navlinks{
+	font-family: 'Work Sans', helvetica, sans-serif;
+	font-weight: bold;
+	font-size: .75em;
+	color: #003CBA;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	padding-right: 1em;
+	padding-left: 1em;
+	text-align: right;
+	background-color: #FFFFFF;
+}
+.description{
+	padding-bottom: 1em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.info{
+	margin: auto;
+}
+
+
+.image_left{
+	padding: .25em;
+	width: 40%;
+	float: left;
+	
+}
+
+.wording_right{
+	
+	width: 50%;
+	float: right;
+}
+
+
+#lander{
+	background:url(../images/financial_chart.jpg) no-repeat center center scroll;
+	background-size: cover;
+	height: 25em;
+	padding: 1em, 1em;
+}
+
+#toggle{
+	display: none;
+}
+
+#blurb{
+	color: #26297F;
+	padding-top: .25em;
+	border: .1em #3F5363 solid;
+	padding: 1em;
+	width: 50%;
+	margin: auto;
+}
+
+@media only screen and (min-width: 1920px){
+	.wrapper{
+		width: 1900px;
+		}
+	}
+
+
+@media only screen and (max-width: 1600px){
+	main{
+		padding: .5em;
+	}
+	h1{
+		padding-top: 2em;
+	}
+ 	.wording_right{
+ 		font-size: .9em;
+ 	}
+
+ 	#lander{
+ 		height: 400px;
+ 	}
+
+}
+
+@media only screen and (max-width: 1485px){
+	h1{
+		padding-top: 1em;
+	}
+	.image_left{
+		float:none;
+		width: 60%;
+	}
+
+	.wording_right{
+		float:none;
+		width:60%;
+
+ 	}
+
+}
+@media only screen and (max-width: 1100px){
+	.description{
+		display:none;
+	}
+
+	#blurb{
+		font-size: .8em;
+	}
+}
+@media only screen and (max-width: 800px){
+	h1{
+		padding-top: .5em;
+	}
+	.wording_right{
+		font-size: .75em;
+	}
+
+	.navlinks{ 
+	 display:block;
+	 text-align: center;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	h2{
+		display: none;
+	}
+	#lander{
+		height: 300px;
+		padding-top: .5em;
+		padding-bottom: .5em;
+	}
+}
+@media only screen and (max-width: 600px){
+	nav{
+		display: none;
+	}
+
+	nav a: link{
+		display: block;
+		padding: 15px;
+		margin: 5px;
+	}
+	
+	label {
+		display: block;
+	}
+
+	.matitle{
+		display: none;
+	}
+	.image_left{
+		display: none;
+	}
+
+	.wording_right {
+		font: .65em;
+		padding: .75em;
+		border:.1em #3F5363 solid;
+
+	}
+	#toggle:checked + nav{
+		display: block;
+	}
+
+	#blurb {
+		display: none;
+	}
+}
